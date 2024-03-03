@@ -5,15 +5,30 @@
 }
 
 .mainHeader {
-   background: #e04507;
-  
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    background: #e04507;
+    border-bottom-left-radius: 30px;
 }
 
 #logo {
-    color: #fff;
-    text-shadow: 0px 0px 2px #000;
-    padding: 50px;
+   position: relative;
+   padding-top: 30px;
+   left: 50px;
+   font-family: sans-serif;
+   color: white;
+   font-size: 20px;
+   text-shadow: 0px 0px 2px #000;
+   
 }
+
+#navContainer {
+    display: flex;
+    padding-right: 50px;
+    align-items: center;
+}
+
 
 body h3 {
     padding-left: 50px;
@@ -36,17 +51,83 @@ body ol {
 
 body ul li a {
     text-decoration: none;
+    margin-right: 10px;
     color: #000;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     
 }
 
 body ul li a:hover {
-    padding: 5px;
     background: #e04507;
-    border-radius: 5px;
     color: #fff;
+}
+
+#adobo {
+    background: url("https://www.allrecipes.com/thmb/Pq3eNjlUA9XPQlR_TXRZEEpl1sY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/128699-famous-chicken-adobo-DDMFS-4x3-2da8cfc2ccc44ddfb1d4cb1bf1a28e48.jpg");
+
+    background-size: contain;
+    height: 400px;
+    width: 533px;
+    border: solid #fc630a42 10px;
+    background-repeat: no-repeat;
+
+}
+
+
+#lasagna {
+    background: url("https://www.allrecipes.com/thmb/nThZfuv6qZaZ-mxJktKt1BI_wyk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/19344_homemade-lasagna_Rita2-3x2-1-7da94c32febf48dfbcc2d29b06f54e67.jpg");
+
+    background-size: contain;
+    height: 400px;
+    width: 600px;
+    border: solid #fc630a42 10px;
+    background-repeat: no-repeat;
+
+}
+
+#caldereta {
+    background: url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4523351.jpg&q=60&c=sc&poi=auto&orient=true&h=512");
+
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    border: solid #fc630a42 10px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+#productName1 {
+
+    color: white;
+    margin: 20px;
+    padding-top: 320px;
+    text-shadow: 1px 1px 2px #000;
+    
+  
+    
+}
+
+#productName2 {
+
+    color: white;
+    margin: 20px;
+    padding-top: 320px;
+    text-shadow: 1px 1px 2px #000;
+ 
+    
+}
+
+#productName3 {
+
+    color: white;
+    margin: 20px;
+    padding-top: 320px;
+    text-shadow: 1px 1px 2px #000;
+ 
+    
 }
 
 #recipeName {
@@ -60,18 +141,11 @@ body ul li a:hover {
 
 
 
-img {
-    width: 600px;
-    border: solid 10px #fc630a42;
-    border-radius: 50px;
-   
-    
-}
-
-#description {
+#productDescription {
+    color: #000;
     line-height: 1.5;
     font-weight: 600;
-    
+  
 }
 
 #container {
@@ -90,7 +164,43 @@ img {
     width: calc(70%)
 }
 
-
-footer {
-    height: 50px
+#aboutContainer {
+    background: #e04507;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 300px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px #000;
+    
+    
 }
+
+#contactContainer {
+    background: #e04507;
+    height: 300px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-left: 300px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px #000;
+    
+    
+}
+
+#aboutContainer h1, p {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
+#contactContainer h1 {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+}
+
